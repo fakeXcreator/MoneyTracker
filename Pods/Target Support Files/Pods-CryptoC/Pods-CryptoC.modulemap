@@ -1,0 +1,6 @@
+framework module Pods_CryptoC {
+  umbrella header "Pods-CryptoC-umbrella.h"
+
+  export *
+  module * { export * }
+}
