@@ -25,7 +25,7 @@ class TableCell: UITableViewCell {
     private lazy var rateLabel: UILabel = {
         let rateLabel = UILabel()
         rateLabel.text = ""
-        rateLabel.textColor = UIColor.white
+        rateLabel.textColor = UIColor.label
         rateLabel.font = UIFont.systemFont(ofSize: 16, weight: .bold)
         return rateLabel
     }()
@@ -33,7 +33,7 @@ class TableCell: UITableViewCell {
     private lazy var nameLabel: UILabel = {
         let nameLabel = UILabel()
         nameLabel.text = ""
-        nameLabel.textColor = UIColor.white
+        nameLabel.textColor = UIColor.label
         nameLabel.font = UIFont.systemFont(ofSize: 16, weight: .bold)
         return nameLabel
     }()

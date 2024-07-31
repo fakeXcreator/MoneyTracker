@@ -1,20 +1,26 @@
 PODS:
   - Alamofire (4.9.1)
+  - DGCharts (5.1.0):
+    - DGCharts/Core (= 5.1.0)
+  - DGCharts/Core (5.1.0)
   - SnapKit (4.2.0)
 
 DEPENDENCIES:
   - Alamofire
+  - DGCharts
   - SnapKit
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - DGCharts
     - SnapKit
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  DGCharts: 1c6daf585b6cfc78807af44ea690d357c410627f
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
-PODFILE CHECKSUM: 967141d4e1979896be6d30d1ea16b6d247ed261e
+PODFILE CHECKSUM: 18d5e92a356946874fe4eb152fa4344921c0f495
 
 COCOAPODS: 1.15.2

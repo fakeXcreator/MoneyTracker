@@ -19,6 +19,13 @@
 		EC1EF1F62C4D33740080B8F7 /* CryptoCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1EF1F52C4D33740080B8F7 /* CryptoCTests.swift */; };
 		EC1EF2002C4D33740080B8F7 /* CryptoCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1EF1FF2C4D33740080B8F7 /* CryptoCUITests.swift */; };
 		EC1EF2022C4D33740080B8F7 /* CryptoCUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1EF2012C4D33740080B8F7 /* CryptoCUITestsLaunchTests.swift */; };
+		EC4A23F82C58C603009BA1D4 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4A23F72C58C603009BA1D4 /* TabBarController.swift */; };
+		EC4A23FA2C58C646009BA1D4 /* TrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4A23F92C58C646009BA1D4 /* TrackerViewController.swift */; };
+		EC4A23FC2C58C66D009BA1D4 /* GraphsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4A23FB2C58C66D009BA1D4 /* GraphsViewController.swift */; };
+		EC4A24002C58F593009BA1D4 /* Expenses+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4A23FE2C58F593009BA1D4 /* Expenses+CoreDataClass.swift */; };
+		EC4A24012C58F593009BA1D4 /* Expenses+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4A23FF2C58F593009BA1D4 /* Expenses+CoreDataProperties.swift */; };
+		EC4A24032C58F6F3009BA1D4 /* CoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4A24022C58F6F3009BA1D4 /* CoreManager.swift */; };
+		EC4A24052C59038E009BA1D4 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4A24042C59038E009BA1D4 /* AddViewController.swift */; };
 		ECA4DFB62C56420F00AD33D8 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA4DFB52C56420F00AD33D8 /* TableViewCell.swift */; };
 		ECA9D0ED2C51D85E006206F5 /* CryptoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA9D0EC2C51D85D006206F5 /* CryptoModel.swift */; };
 		ECA9D0F42C51E476006206F5 /* CryptoAPI-Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA9D0F32C51E476006206F5 /* CryptoAPI-Manager.swift */; };
@@ -65,6 +72,13 @@
 		EC1EF1FB2C4D33740080B8F7 /* CryptoCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC1EF1FF2C4D33740080B8F7 /* CryptoCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCUITests.swift; sourceTree = "<group>"; };
 		EC1EF2012C4D33740080B8F7 /* CryptoCUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EC4A23F72C58C603009BA1D4 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		EC4A23F92C58C646009BA1D4 /* TrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerViewController.swift; sourceTree = "<group>"; };
+		EC4A23FB2C58C66D009BA1D4 /* GraphsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphsViewController.swift; sourceTree = "<group>"; };
+		EC4A23FE2C58F593009BA1D4 /* Expenses+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Expenses+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EC4A23FF2C58F593009BA1D4 /* Expenses+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Expenses+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EC4A24022C58F6F3009BA1D4 /* CoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreManager.swift; sourceTree = "<group>"; };
+		EC4A24042C59038E009BA1D4 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		ECA4DFB52C56420F00AD33D8 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		ECA9D0EC2C51D85D006206F5 /* CryptoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoModel.swift; sourceTree = "<group>"; };
 		ECA9D0F32C51E476006206F5 /* CryptoAPI-Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CryptoAPI-Manager.swift"; sourceTree = "<group>"; };
@@ -160,6 +174,16 @@
 			path = CryptoCUITests;
 			sourceTree = "<group>";
 		};
+		EC4A23FD2C58EB23009BA1D4 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				EC4A23FE2C58F593009BA1D4 /* Expenses+CoreDataClass.swift */,
+				EC4A23FF2C58F593009BA1D4 /* Expenses+CoreDataProperties.swift */,
+				EC4A24022C58F6F3009BA1D4 /* CoreManager.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 		ECA9D0EE2C51E417006206F5 /* Supporting */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +218,10 @@
 			children = (
 				EC1EF1DF2C4D33720080B8F7 /* ViewController.swift */,
 				ECA4DFB52C56420F00AD33D8 /* TableViewCell.swift */,
+				EC4A23F72C58C603009BA1D4 /* TabBarController.swift */,
+				EC4A23F92C58C646009BA1D4 /* TrackerViewController.swift */,
+				EC4A23FB2C58C66D009BA1D4 /* GraphsViewController.swift */,
+				EC4A24042C59038E009BA1D4 /* AddViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -201,6 +229,7 @@
 		ECA9D0F22C51E44B006206F5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EC4A23FD2C58EB23009BA1D4 /* CoreData */,
 				ECA9D0EF2C51E42D006206F5 /* API */,
 			);
 			path = Model;
@@ -457,10 +486,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC4A24032C58F6F3009BA1D4 /* CoreManager.swift in Sources */,
+				EC4A24002C58F593009BA1D4 /* Expenses+CoreDataClass.swift in Sources */,
+				EC4A24012C58F593009BA1D4 /* Expenses+CoreDataProperties.swift in Sources */,
 				EC1EF1E62C4D33720080B8F7 /* CryptoC.xcdatamodeld in Sources */,
 				ECA4DFB62C56420F00AD33D8 /* TableViewCell.swift in Sources */,
+				EC4A24052C59038E009BA1D4 /* AddViewController.swift in Sources */,
 				ECA9D0F42C51E476006206F5 /* CryptoAPI-Manager.swift in Sources */,
+				EC4A23F82C58C603009BA1D4 /* TabBarController.swift in Sources */,
 				EC1EF1E02C4D33720080B8F7 /* ViewController.swift in Sources */,
+				EC4A23FC2C58C66D009BA1D4 /* GraphsViewController.swift in Sources */,
+				EC4A23FA2C58C646009BA1D4 /* TrackerViewController.swift in Sources */,
 				ECA9D0F62C5200C2006206F5 /* ContentViewModel.swift in Sources */,
 				EC1EF1DC2C4D33720080B8F7 /* AppDelegate.swift in Sources */,
 				EC1EF1DE2C4D33720080B8F7 /* SceneDelegate.swift in Sources */,

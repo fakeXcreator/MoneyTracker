@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     lazy var labelStepper: UILabel = {
         let labelStepper = UILabel()
         labelStepper.text = "Amount: \(Int(vm.amount))$"
-        labelStepper.textColor = UIColor.white
+        labelStepper.textColor = UIColor.label
         labelStepper.font = UIFont.systemFont(ofSize: 20, weight: .bold)
         return labelStepper
     }()
@@ -71,7 +71,6 @@ class ViewController: UIViewController {
     // MARK: Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Crypto Currency"
         view.backgroundColor = .systemBackground
         
         setupUI()
