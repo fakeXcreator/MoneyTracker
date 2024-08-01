@@ -29,7 +29,11 @@ extension Expenses: Identifiable {
         self.money = newMoney
         self.date = Date()
         
-        try? managedObjectContext?.save
+        do {
+            try managedObjectContext?.save()
+        } catch {
+            print("Failed to save the updated note: \(error)")
+        }
     }
 
     func deleteNote() {
